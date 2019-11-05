@@ -17,3 +17,14 @@
 #pragma once
 
 // place overrides here
+
+// https://github.com/qmk/qmk_firmware/blob/f39e1b5dfe7552f01dbc6eab95c268f41a9d98e2/readme.md#prevent-stuck-modifiers
+#define PREVENT_STUCK_MODIFIERS
+
+// qiita.com/uodna/items/6d23581d26c1adb23377#tapping_term
+// #undef TAPPING_TERM
+// #define TAPPING_TERM 500
+
+#define RETRO_TAPPING
+
+#define PERMISSIVE_HOLD
